@@ -33,7 +33,7 @@ const App = () => {
   };
 
   const isWin = () => {
-    win.map((x) => {
+    win.map((x:number[]) => {
       const testGridGame = JSON.stringify([
         gridGame[x[0]],
         gridGame[x[1]],
